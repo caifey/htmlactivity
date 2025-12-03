@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebForms</title>
+</head>
+
+<body>
+
+<h2>School Organization Registration Form</h2>
+
+<form action="confirmation.html" method="post">
+
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+        <br><br>
+
+        <label for="number">Contact Number:</label><br>
+        <input type="number" id="contact" name="number" placeholder="09XXXXXXXXX">
+
+        <br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="radio1" value="Male"> Male
+        
+        <br>
+        
+        <input type="radio" name="radio1" value="Female"> Female
+
+        <br>
+        
+        <label for="glevel">Grade Level</label>
+        <br>
+		<select name="select1" size="1">
+            <option>...Select your level...</option>
+            <option>Grade 7</option>
+            <option>Grade 8</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+        </select>
+        
+    </fieldset>
+        
+        <br>
+        
+    <fieldset>
+        <legend>Membership Information</legend>
+
+        <label for="position">Position:</label>
+        <br>
+        <input type="radio" name="radio1" value="Setter"> Setter
+        <br>
+        <input type="radio" name="radio1" value="Outside Hitter"> Outside Hitter
+        <br>
+        <input type="radio" name="radio1" value="Middle Blocker"> Middle Blocker
+        <br>
+        <input type="radio" name="radio1" value="Opposite Hitter"> Opposite Hitter
+        <br>
+        <input type="radio" name="radio1" value="Libero"> Libero
+        
+		<br><br>
+
+ 		<label for="yearsofexperience">Years of Experience</label>
+        <br>
+        <input type="radio" name="radio1">2-3 years
+        <br>
+        <input type="radio" name="radio1">4-6 years
+        <br>
+        <input type="radio" name="radio1">7 years and above
+        
+        <br>
+
+		<label>Type of Member:</label>
+        <br>
+        <select name="memberType">
+            <option></option>
+            <option>Varsity Player</option>
+            <option>Training Pool Member</option>
+            <option>Beginner Member</option>
+        </select>
+
+        <br><br>
+
+        <label for="comments">Comments or Suggestions:</label>
+        <br>
+        <textarea name="comments" placeholder="Write your message here..."></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
