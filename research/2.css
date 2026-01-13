@@ -1,25 +1,26 @@
 h2 {
   color: blue;
   font-family: verdana;
-  font-size: 300%;
+  font-size: 300%; text-align: center;
 }
 p {
   color: blue;
   font-family: courier;
-  font-size: 160%; border: 5px solid powderblue;
-  padding: 40px; background-color: white;
+  font-size: 100%; border: 5px solid powderblue;
+  padding: 40px; background-color: white; text-align: justify;
 }
 
 body { background-color: #498ab0 }
 
 li {
   border: 5px solid powderblue;
-  padding: 15px; background-color: white;
+  padding: 30px; background-color: white; text-align: center;
 }
 td {
   border: 5px solid powderblue;
-  padding: 15px; background-color: white;
+  padding: 30px; background-color: white; text-align: center;
 }
+
 
 
 
