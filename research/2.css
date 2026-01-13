@@ -1,0 +1,22 @@
+h2 {
+  color: white;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: white;
+  font-family: courier;
+  font-size: 160%; border: 5px solid powderblue;
+  padding: 40px; background-color: white;
+}
+
+body { background-color: #498ab0 }
+
+li {
+  border: 5px solid powderblue;
+  padding: 15px; background-color: white;
+}
+td {
+  border: 5px solid powderblue;
+  padding: 15px; background-color: white;
+}
