@@ -1,10 +1,10 @@
 h2 {
-  color: powder blue;
+  color: blue;
   font-family: verdana;
   font-size: 300%;
 }
 p {
-  color: powder blue;
+  color: blue;
   font-family: courier;
   font-size: 160%; border: 5px solid powderblue;
   padding: 40px; background-color: white;
@@ -20,5 +20,6 @@ td {
   border: 5px solid powderblue;
   padding: 15px; background-color: white;
 }
+
 
 
