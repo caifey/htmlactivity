@@ -14,12 +14,13 @@ body { background-color: #498ab0 }
 
 li {
   border: 5px solid powderblue;
-  padding: 30px; background-color: white; text-align: center;
+  padding: 10px; background-color: white; text-align: center; 
 }
 td {
   border: 5px solid powderblue;
-  padding: 30px; background-color: white; text-align: center;
+  padding: 10px; background-color: white; text-align: center; 
 }
+
 
 
 
