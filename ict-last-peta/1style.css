@@ -1,0 +1,111 @@
+body {
+   background-color:#000c40;
+   
+}
+
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  text-shadow: 4px 4px #061866;
+  color: white;
+  font-family: Lucida Console;
+  
+}
+	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000c40;
+  display: flex;
+  justify-content: center;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 2px;
+  z-index: 1000;
+  
+}
+
+ul li {
+  float: left;
+  
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #061866;
+  border-radius: 10px;
+  
+}
+
+li a:hover, 
+li a.active {
+  background-color: #061866;
+  color: white;
+  border-radius:15px;
+  
+}
+
+img {
+  display: block;
+  margin: 5px auto 0;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  
+}
+
+.button1 {
+  background-color: white;
+  border: none;
+  border-radius: 34px;
+  color: #000c40;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;        
+  margin: 20px auto;     
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Lucida Console;
+  font-weight: bold;
+
+}
+
+.button1:hover {
+  background-color: #061866;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: #000c40;
+}
+
+section {
+  background-color: #0e1b53;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 30px;
+  display: block;
+  max-width: 900px;
+
+}
+
