@@ -4,11 +4,22 @@ body {
   background-color: #456882;
 }
 
-.active {
+ul li a.active {
   background-color: #456882;
   box-shadow: 0 0 10px #03346E,
               0 0 20px #6EACDA;
   transition: 0.3s;
+}
+
+ul {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  margin: 1;
+  padding: 1;
+  background-color: #234C6A;
+  text-align: center;
 }
 
 h1 {
@@ -175,4 +186,5 @@ video {
   display: block;
   margin: auto;
 }
+
 
