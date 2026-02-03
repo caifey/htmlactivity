@@ -4,6 +4,12 @@ body {
   background-color: #456882;
 }
 
+.active {
+  background-color: #456882;
+  box-shadow: 0 0 10px #03346E,
+              0 0 20px #6EACDA;
+  transition: 0.3s;
+}
 
 h1 {
   margin: 10px;
@@ -169,3 +175,4 @@ video {
   display: block;
   margin: auto;
 }
+
