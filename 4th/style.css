@@ -47,15 +47,11 @@ ul li a:active {
   background-color: #03346E;
 }
 
-/* ACTIVE PAGE */
-
 ul li a.active {
   background-color: #456882;
   box-shadow: 0 0 10px #03346E,
               0 0 20px #6EACDA;
 }
-
-/* TEXT */
 
 h1 {
   margin: 10px;
@@ -98,7 +94,7 @@ blockquote {
 }
 
 .image {
-  width: 50%;
+  width: 25%;
   display: block;
   margin: auto;
   border-radius: 20px;
@@ -183,4 +179,5 @@ a.btn {
   height: 315px;
   border: none;
 }
+
 
