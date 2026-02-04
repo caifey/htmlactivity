@@ -83,12 +83,10 @@ p {
 }
 
 blockquote {
-  color: gray;
+  color: #D2C1B6;
   text-align: center;
   font-size: 10px;
 }
-
-/* CONTENT BOX */
 
 .content-box {
   background-color: #234C6A;
@@ -99,8 +97,6 @@ blockquote {
   box-shadow: 0 0 10px #03346E;
 }
 
-/* IMAGES */
-
 .image {
   width: 50%;
   display: block;
@@ -109,13 +105,11 @@ blockquote {
 }
 
 .img {
-  width: 50%;
+  width: 35%;
   display: block;
   margin: auto;
   border-radius: 300px;
 }
-
-/* IMAGE OVERLAY */
 
 .container {
   position: relative;
@@ -151,8 +145,6 @@ blockquote {
                0 0 10px #D2C1B6;
 }
 
-/* BUTTON */
-
 .button {
   background-color: #234C6A;
   border: none;
@@ -179,8 +171,6 @@ a.btn {
   color: #D2C1B6;
 }
 
-/* VIDEO */
-
 .video {
   display: flex;
   justify-content: center;
@@ -193,3 +183,4 @@ a.btn {
   height: 315px;
   border: none;
 }
+
