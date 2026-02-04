@@ -1,26 +1,61 @@
 body {
-  margin: 1;
-  padding: 1;
+  margin: 1px;
+  padding: 1px;
   background-color: #456882;
-}
-
-ul li a.active {
-  background-color: #456882;
-  box-shadow: 0 0 10px #03346E,
-              0 0 20px #6EACDA;
-  transition: 0.3s;
 }
 
 ul {
   position: sticky;
   top: 0;
   z-index: 1000;
-
-  margin: 1;
-  padding: 1;
+  margin: 1px;
+  padding: 1px;
   background-color: #234C6A;
   text-align: center;
 }
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: Lucida Console;
+  text-shadow: 0 0 30px #D2C1B6,
+               0 0 10px #D2C1B6;
+}
+
+ul li a:link {
+  color: #D2C1B6;
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: #D2C1B6;
+}
+
+ul li a:hover {
+  background-color: #456882;
+  box-shadow: 0 0 10px #03346E,
+              0 0 20px #6EACDA;
+  transition: 0.3s;
+}
+
+ul li a:active {
+  background-color: #03346E;
+}
+
+/* ACTIVE PAGE */
+
+ul li a.active {
+  background-color: #456882;
+  box-shadow: 0 0 10px #03346E,
+              0 0 20px #6EACDA;
+}
+
+/* TEXT */
 
 h1 {
   margin: 10px;
@@ -33,7 +68,7 @@ h1 {
 }
 
 p {
-  margin: 10px; 
+  margin: 10px;
   color: #D2C1B6;
   text-align: center;
   font-family: Garamond;
@@ -47,62 +82,27 @@ p {
   font-weight: bold;
 }
 
-ul {
-  margin: 1;
-  padding: 1;
-  background-color: #234C6A;
-  text-align: center;
-}
-
-ul li {
-display: inline-block;
-}
-
-ul li a {
-  display: block;
-  color: #D2C1B6;
-  text-align: center;
-  padding: 15px 20px;
-  text-decoration: none;
-  border-radius: 30px;
-  font-family: Lucida Console;
-  text-shadow: 0 0 30px #D2C1B6,
-               0 0 10px #D2C1B6;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #456882;
-  box-shadow: 0 0 10px #03346E,
-              0 0 20px #6EACDA;
-  transition: 0.3s;
-}
-
-div {
-  background-color: #234C6A;
-  margin: 10px auto;
-  padding: 10px;
-  border-radius: 20px;
-  display: block;
-  max-width: 900px;
-  box-shadow: 0 0 10px #03346E;
-}
-
 blockquote {
-  color: gray; 
+  color: gray;
   text-align: center;
   font-size: 10px;
 }
 
+/* CONTENT BOX */
 
-.container {
-  position: relative;
-  width: 50%;
+.content-box {
+  background-color: #234C6A;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 900px;
+  box-shadow: 0 0 10px #03346E;
 }
+
+/* IMAGES */
 
 .image {
   width: 50%;
-  height: 50%;
   display: block;
   margin: auto;
   border-radius: 20px;
@@ -110,20 +110,22 @@ blockquote {
 
 .img {
   width: 50%;
-  height: 50%;
   display: block;
   margin: auto;
   border-radius: 300px;
 }
 
+/* IMAGE OVERLAY */
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+  inset: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: #456882;
@@ -141,25 +143,23 @@ blockquote {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   font-family: Garamond;
+  font-weight: bold;
   text-shadow: 0 0 30px #D2C1B6,
                0 0 10px #D2C1B6;
-  font-weight: bold;
 }
+
+/* BUTTON */
 
 .button {
   background-color: #234C6A;
   border: none;
   border-radius: 34px;
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: block;        
-  margin: 20px auto;     
+  display: block;
+  margin: 20px auto;
   font-size: 20px;
   cursor: pointer;
   font-family: Lucida Handwriting;
@@ -168,17 +168,18 @@ blockquote {
                0 0 10px #D2C1B6;
 }
 
+.button:hover {
+  background-color: #456882;
+  box-shadow: 0 0 10px #03346E,
+              0 0 20px #6EACDA;
+}
+
 a.btn {
   text-decoration: none;
   color: #D2C1B6;
 }
 
-.button:hover {
-  background-color: #456882;
-  box-shadow: 0 0 10px #03346E,
-              0 0 20px #6EACDA;
-  transition: 0.3s;
-}
+/* VIDEO */
 
 .video {
   display: flex;
@@ -192,6 +193,3 @@ a.btn {
   height: 315px;
   border: none;
 }
-
-
-
