@@ -100,11 +100,11 @@ blockquote {
   border-radius: 20px;
 }
 
-.img {
+#img {
   width: 35%;
-  display: block;
-  margin: auto;
-  border-radius: 300px;
+  display: block;     
+  margin: auto;       
+  border-radius: 50% / 25%;  
 }
 
 .container {
@@ -179,5 +179,6 @@ a.btn {
   height: 315px;
   border: none;
 }
+
 
 
