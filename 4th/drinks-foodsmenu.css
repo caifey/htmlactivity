@@ -1,0 +1,24 @@
+body {
+	background-color: #6B4F2A;
+	margin: 0;
+}
+
+.header {
+    background-color: #8B6F47;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#main {
+	font-family: Cursive;
+    text-shadow: 0 0 10px #c2a178,
+                 0 0 20px #a67c52,
+                 0 0 30px #8b5e3c;
+    transition: 0.3s ease;
+}
+
+#main:hover {
+    text-shadow: 0 0 30px #6B4F2A,
+               0 0 10px #e9e1d4,
+               0 0 20px #e9e1d4;
